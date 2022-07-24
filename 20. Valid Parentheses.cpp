@@ -11,7 +11,7 @@ public:
             if(c == '(' || c == '{' || c == '['){
                 st.push(c);
             }
-            else if(c == ')' || c == '}' || c == ']'){
+            else{
                 if(st.empty()){
                     st.push(c);
                     break;
